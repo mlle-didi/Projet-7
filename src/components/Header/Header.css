@@ -27,3 +27,52 @@ nav {
 .menu-link::backdrop {
     text-decoration: underline;  
 }
+
+/* MIN DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        height: 61px;
+    }
+
+    .space-link {
+        padding-left: 1em;
+        padding-right: 2em;
+    }
+        
+    .menu-link {
+        font-size: 20px;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        height: 54px;
+    }
+
+    .space-link {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .menu-link {
+        font-size: 16px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .logo {
+        height: 47px;
+    }
+
+    .space-link {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .menu-link {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}

@@ -27,3 +27,48 @@
     align-items: flex-end;
     margin: 0;
 }
+
+/* MIN DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-container {
+        padding-top: 66px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-container {
+        padding-top: 64px;
+    }
+
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .footer-container {
+        padding-top: 62px;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}

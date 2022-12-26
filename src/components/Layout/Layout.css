@@ -2,3 +2,10 @@
 main{
     min-height: 105vh;
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    main{
+        min-height: 80vh;
+    }
+}
