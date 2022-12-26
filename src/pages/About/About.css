@@ -1,0 +1,48 @@
+/* MAX DESKTOP */
+.collapse {
+    margin-bottom: 46px;
+    margin-left: 208px;
+    margin-right: 209px;
+}
+
+hr {
+    border: none;
+    height: 31px;
+    margin: 0;
+}
+
+/* MIN DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .collapse {
+        margin-left: 152px;
+        margin-right: 152px;
+    }
+
+    hr {
+        height: 28px;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .collapse {
+        margin-left: 96px;
+        margin-right: 96px;
+    }
+
+    hr {
+        height: 24px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .collapse {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    hr {
+        height: 20px;
+    }
+}
