@@ -1,0 +1,29 @@
+/* MAX DESKTOP */
+.footer-background {
+    background: black;
+    left: 0; 
+    right: 0;
+    height: 209px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 66px;
+}
+
+.footer-logo {
+    width: 122px;
+    margin-bottom: 29px;;
+}
+
+.footer-text {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+}

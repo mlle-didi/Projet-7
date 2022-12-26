@@ -1,0 +1,29 @@
+/* MAX DESKTOP */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.space-link {
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.menu-link {
+    color: #FF6060;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.menu-link:hover {
+    color: #FF6060;
+    text-decoration: underline;  
+}
+
+.menu-link::backdrop {
+    text-decoration: underline;  
+}
