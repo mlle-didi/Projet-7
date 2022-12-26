@@ -1,0 +1,85 @@
+/* MAX DESKTOP */
+
+.carousel {
+    height: 415px;
+    background-color: #ff6060;
+}
+
+.owner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.logements-owner {
+    display: inline-flex;
+    width: 100%;
+}
+
+.logements-owner > div {
+    flex: 1 0 auto;
+}
+
+.tags {
+    display: flex;
+    grid-gap: 10px;
+}
+
+.info-logements {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-logement {
+    font-size: 36px;
+    height: 51px;
+    color: #ff6060;
+}
+
+.place-logement {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff6060;
+}
+
+.info-owner {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.name-owner {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+    color: #ff6060;
+}
+
+.photo-owner {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;;
+}
+
+.star {
+    height: 30px;
+    width: 30px;
+}
+
+.description-equipements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 76px;
+}
+
