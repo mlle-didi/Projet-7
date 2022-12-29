@@ -22,8 +22,8 @@
 }
 
 .tags {
-    display: flex;
     grid-gap: 10px;
+    display: flex;
 }
 
 .info-logements {
@@ -33,8 +33,9 @@
 
 .title-logement {
     font-size: 36px;
-    height: 51px;
     color: #ff6060;
+    margin: 0;
+    font-weight: 500;
 }
 
 .place-logement {
@@ -42,6 +43,8 @@
     font-size: 18px;
     margin-bottom: 20px;
     color: #ff6060;
+    margin-top: 0;
+    font-weight: 500;
 }
 
 .info-owner {
@@ -69,7 +72,7 @@
 .note {
     align-items: center;
     display: flex;
-    justify-content: space-between;;
+    gap: 10px;
 }
 
 .star {
@@ -93,3 +96,162 @@
    color: transparent;
 }
 
+/* MIN DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .title-logement {
+        font-size: 30px;
+    }
+
+    .photo-owner {
+        height: 54px;
+        width: 54px;
+    }
+
+    .place-logement {
+        font-size: 17px;
+    }
+
+    .name-owner {
+        font-size: 16px;
+    }
+
+    .tags {
+        grid-gap: 10px;
+        display: flex;
+    }
+
+    .star {
+        height: 25px;
+        width: 25px;
+    }
+
+    .note {
+        gap: 8px;
+    }
+
+    .equipment {
+        font-size: 16px;
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .infos {
+        flex-direction: column;
+    }
+
+    .owner {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    .title-logement {
+        font-size: 24px;
+                margin-top: -15px;
+        margin-bottom: 0;
+    }
+
+    .place-logement {
+        font-size: 15px;
+    }
+
+    .info-owner {
+        margin-bottom: 0;
+    }
+
+    .photo-owner {
+        height: 42px;
+        width: 42px;
+    }
+
+    .name-owner {
+        font-size: 14px;
+    }
+
+    .tags {
+        grid-gap: 10px;
+        display: flex;
+    }
+
+    .star {
+        height: 20px;
+        width: 20px;
+    }
+
+    .note {
+        gap: 7px;
+    }
+
+    .equipment {
+        font-size: 14px;
+    }
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .infos {
+        flex-direction: column;
+    }
+
+    .owner {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    .title-logement {
+        font-size: 18px;
+        margin-top: -15px;
+        margin-bottom: 0;
+    }
+
+    .info-owner {
+        margin-bottom: 0;
+    }
+
+    .place-logement {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .photo-owner {
+        height: 32px;
+        width: 32px;
+    }
+
+    .name-owner {
+        font-size: 12px;
+    }
+
+    .tags {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 85px;
+    }
+
+    .star {
+        height: 15px;
+        width: 15px;
+    }
+
+    .note {
+        gap: 5px;
+    }
+
+    .equipment {
+        font-size: 12px;
+    }
+
+    .description-equipements {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+    
+
+}

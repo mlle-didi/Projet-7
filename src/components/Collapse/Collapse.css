@@ -6,7 +6,7 @@
 
 .toggle {
     background: #FF6060;
-    border-radius: 5px;
+    border-radius: 10px;
     border-style: none;
     display: flex;
     align-items: center;
@@ -58,10 +58,11 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .toggle {
         height: 41px;
+        padding: 0px 17px;
     }
 
     .collapse-title {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .collapse-text {
@@ -72,16 +73,22 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .chevron {
+        height: 13px;
+    }
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .toggle {
         height: 36px;
+        padding: 0px 14px;
+        border-radius: 5px;
     }
 
     .collapse-title {
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .collapse-text {
@@ -92,12 +99,18 @@
         padding-left: 14px;
         padding-right: 14px;
     }
+
+    .chevron {
+        height: 11px;
+    }
 }
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
     .toggle {
         height: 30px;
+        padding: 0px 11px;
+        border-radius: 5px;
     }
 
     .collapse-title {
@@ -111,5 +124,9 @@
     .collapse-parent {
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .chevron {
+        height: 9px;
     }
 }
