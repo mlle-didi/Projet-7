@@ -16,14 +16,15 @@ const Collapse =(props)=>{
     return(
         <div className='collapse-content'>
             <div className='toggle' onClick={toggle}>
-                <h2 className='collapse-title'>{props.label}</h2>
+                <span className='collapse-title'>{props.label}</span>
                 <img
 					className={open ? "chevron rotated" : "chevron"}
 					src={chevron}
 					alt="chevron"
 				/>
             </div>
-            <div className="collapse-parent"
+            <div 
+                className="collapse-parent"
                 ref={contentRef} 
                 style={{height: open ? contentRef.current.scrollHeight + "px" : "0px",
                 }}>

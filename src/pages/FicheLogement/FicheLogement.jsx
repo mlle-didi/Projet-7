@@ -41,21 +41,26 @@ function FicheLogement() {
         }
     }
 
+    /* Equipements */
+    const equipmentsList = ficheLogement?.equipments.map((equipment) => (
+        <p className="equipment">{equipment}</p>
+    ));
+
     return(
         <>
             {
                 ficheLogement ? (
                     <div className="margin-LR margin-BT">
                         <Carousel slides={ficheLogement?.pictures} />
-                        <div className="owner">
+                        <div className="infos">
                             <div className="info-logements">
-                                <span className="title-logement">{ficheLogement?.title}</span>
-                                <span className="place-logement">{ficheLogement?.location}</span>
+                                <h2 className="title-logement">{ficheLogement?.title}</h2>
+                                <h3 className="place-logement">{ficheLogement?.location}</h3>
                                 <div className="tags">
                                     {tagsLogement}
                                 </div>
                             </div>
-                            <div>
+                            <div className="owner">
                                 <div className="info-owner">
                                     <span className="name-owner">{ficheLogement?.host.name}</span>
                                     <img className="photo-owner" src={ficheLogement?.host.picture} alt="Propriétaire"/>
@@ -70,7 +75,9 @@ function FicheLogement() {
                                 <Collapse label="Description"  children={ficheLogement?.description}/>
                             </div>
                             <div className="collapse-children">
-                                <Collapse label="Equipements" children={ficheLogement?.equipments.join('\n')} />
+                                <Collapse label="Equipements">
+                                    {equipmentsList}  
+                                </Collapse>
                             </div>
                         </div>
                     </div>

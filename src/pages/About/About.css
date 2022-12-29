@@ -11,6 +11,11 @@ hr {
     margin: 0;
 }
 
+.textAbout {
+    font-size: 24px;
+}
+
+
 /* MIN DESKTOP */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .collapse {
@@ -20,6 +25,10 @@ hr {
 
     hr {
         height: 28px;
+    }
+
+    .textAbout {
+        font-size: 20px;
     }
 }
 
@@ -33,6 +42,10 @@ hr {
     hr {
         height: 24px;
     }
+
+    .textAbout {
+        font-size: 16px;
+    }
 }
 
 /* MOBILE */
@@ -44,5 +57,9 @@ hr {
 
     hr {
         height: 20px;
+    }
+
+    .textAbout {
+        font-size: 12px;
     }
 }
