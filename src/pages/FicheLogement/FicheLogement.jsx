@@ -71,10 +71,10 @@ function FicheLogement() {
                             </div>
                         </div>
                         <div className="description-equipements">
-                            <div className="collapse-children">
+                            <div>
                                 <Collapse label="Description"  children={ficheLogement?.description}/>
                             </div>
-                            <div className="collapse-children">
+                            <div>
                                 <Collapse label="Equipements">
                                     {equipmentsList}  
                                 </Collapse>
