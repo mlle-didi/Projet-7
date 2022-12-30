@@ -29,13 +29,8 @@
 .error-link {
     color: #FF6060;
     font-size: 18px;
-    text-decoration: none;
     margin-top: 182px;
     height: 26px;
-}
-
-.error-link:hover {
-    color: #FF6060;
     text-decoration: underline;  
 }
 
