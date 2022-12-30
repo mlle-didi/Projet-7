@@ -1,5 +1,5 @@
 // Components
-import Banner from '../../components/Banner/Banner'
+import Banner from '../../components/BannerAbout/BannerAbout.jsx'
 import Collapse from '../../components/Collapse/Collapse'
 
 // Assets
@@ -11,7 +11,7 @@ import "../About/About.css"
 function About() {
     return (
         <div>
-            <Banner banner={bannerAbout} text=""/>
+            <Banner banner={bannerAbout}/>
             <div className='collapse'>
                 <Collapse label="Fiabilité">
                     <p className='textAbout'>

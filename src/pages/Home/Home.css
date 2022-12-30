@@ -12,6 +12,11 @@
     margin-bottom: 40px;
 }
 
+.banner-text {
+    font-size: 24px;
+    height: 79px;
+}
+
 /* MIN DESKTOP */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .card-background {

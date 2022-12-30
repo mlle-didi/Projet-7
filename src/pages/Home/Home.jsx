@@ -2,14 +2,14 @@
 import { Link } from 'react-router-dom'
 
 // Components
-import Banner from '../../components/Banner/Banner'
+import Banner from '../../components/BannerHome/BannerHome'
 import Card from '../../components/Card/Card'
 
 // Data
 import logements from '../../data.json'
 
 // Assets
-import bannerHome from '../../assets/images/BANNER_HOME.png' 
+import bannerHome from '../../assets/images/BANNER_HOME.jpg' 
 
 // Style
 import "../Home/Home.css"
