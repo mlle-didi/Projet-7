@@ -42,8 +42,8 @@ function FicheLogement() {
     }
 
     /* Equipements */
-    const equipmentsList = ficheLogement?.equipments.map((equipment) => (
-        <p className="equipment">{equipment}</p>
+    const equipmentsList = ficheLogement?.equipments.map((equipment, index) => (
+        <span key={index} className="equipment">{equipment}</span>
     ));
 
     return(

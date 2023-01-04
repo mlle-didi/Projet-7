@@ -28,7 +28,7 @@ const Collapse =(props)=>{
                 ref={contentRef} 
                 style={{height: open ? contentRef.current.scrollHeight + "px" : "0px",
                 }}>
-                <span className='collapse-text'>{props.children}</span>
+                <p className='collapse-text'>{props.children}</p>
             </div>
         </div>
     )
