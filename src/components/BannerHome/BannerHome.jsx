@@ -6,7 +6,7 @@ function Banner({banner, text}) {
 		<div className="bannerHome-container margin-LR margin-BT">
             <img className="bannerHome-image" src={banner} alt="Bannière" />
             <div className="bannerHome-filter"></div>
-            <p className="bannerHome-text">{text}</p>
+            <span className="bannerHome-text">{text}</span>
 		</div>
 	)
 }
