@@ -1,6 +1,6 @@
 /* MAX DESKTOP */
 .footer-background {
-    background: black;
+    background: #000000;
     left: 0; 
     right: 0;
     height: 209px;
@@ -19,7 +19,7 @@
 }
 
 .footer-text {
-    color: white;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 24px;
     height: 46px;

@@ -2,7 +2,7 @@
 
 .carousel {
     height: 415px;
-    background-color: #ff6060;
+    background-color: #FF6060;
 }
 
 .infos {
@@ -33,7 +33,7 @@
 
 .title-logement {
     font-size: 36px;
-    color: #ff6060;
+    color: #FF6060;
     margin: 0;
     font-weight: 500;
 }
@@ -42,7 +42,7 @@
     display: block;
     font-size: 18px;
     margin-bottom: 20px;
-    color: #ff6060;
+    color: #FF6060;
     margin-top: 0;
     font-weight: 500;
 }
@@ -59,7 +59,7 @@
     margin-right: 10px;
     text-align: right;
     width: 100px;
-    color: #ff6060;
+    color: #FF6060;
 }
 
 .photo-owner {
