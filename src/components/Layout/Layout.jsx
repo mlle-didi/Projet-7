@@ -1,12 +1,12 @@
-// React Framework
-import React from 'react'
+// React
+import React from 'react';
 
 // Components
-import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 // Style
-import "../Layout/Layout.css"
+import '../Layout/Layout.css';
 
 const Layout = ({children}) => {
   return (

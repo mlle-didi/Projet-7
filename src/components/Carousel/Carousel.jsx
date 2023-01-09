@@ -1,6 +1,9 @@
-import { useState } from "react";
-import left from "../../assets/images/ARROW-LEFT.svg";
-import right from "../../assets/images/ARROW-RIGHT.svg";
+// Hooks
+import { useState } from 'react';
+
+// Images
+import left from '../../assets/images/ARROW-LEFT.svg';
+import right from '../../assets/images/ARROW-RIGHT.svg';
 
 // Style
 import "../Carousel/Carousel.css"

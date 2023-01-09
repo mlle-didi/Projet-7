@@ -1,8 +1,8 @@
 // Style
-import "../Tag/Tag.css"
+import '../Tag/Tag.css';
 
-// React Framework
-import React from "react";
+// React
+import React from 'react';
 
 function Tag({name}) {
     return(

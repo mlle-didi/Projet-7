@@ -1,18 +1,18 @@
 // React Framework
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 // Components
-import Banner from '../../components/BannerHome/BannerHome'
-import Card from '../../components/Card/Card'
+import Banner from '../../components/BannerHome/BannerHome';
+import Card from '../../components/Card/Card';
 
 // Data
-import logements from '../../data.json'
+import logements from '../../data.json';
 
-// Assets
-import bannerHome from '../../assets/images/BANNER_HOME.jpg' 
+// Images
+import bannerHome from '../../assets/images/BANNER_HOME.jpg';
 
 // Style
-import "../Home/Home.css"
+import '../Home/Home.css';
 
 function Home() {
   return (

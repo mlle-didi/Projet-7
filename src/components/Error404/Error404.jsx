@@ -1,8 +1,8 @@
 // Style
-import "../Error404/Error404.css"
+import '../Error404/Error404.css';
 
 // React Framework
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function Error() {
   return (

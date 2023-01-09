@@ -1,21 +1,21 @@
-// React Framework
-import { useParams } from "react-router-dom";
+// Hooks
+import { useParams } from 'react-router-dom';
 
 // Data
-import logements from '../../data.json'
+import logements from '../../data.json';
 
 // Components
-import Tag from "../../components/Tag/Tag";
-import Collapse from '../../components/Collapse/Collapse'
-import Carousel from '../../components/Carousel/Carousel'
-import Error from "../../pages/Error/Error";
+import Tag from '../../components/Tag/Tag';
+import Collapse from '../../components/Collapse/Collapse';
+import Carousel from '../../components/Carousel/Carousel';
+import Error from '../../pages/Error/Error';
 
-// Assets
-import star from '../../assets/images/STAR.png' 
-import nullStar from '../../assets/images/NULL-STAR.png' 
+// Images
+import star from '../../assets/images/STAR.png';
+import nullStar from '../../assets/images/NULL-STAR.png';
 
 // Style
-import "../FicheLogement/FicheLogement.css"
+import '../FicheLogement/FicheLogement.css';
 
 function FicheLogement() {
     /* Récupère la bonne fiche */
@@ -72,7 +72,7 @@ function FicheLogement() {
                         </div>
                         <div className="description-equipements">
                             <div>
-                                <Collapse label="Description"  children={ficheLogement?.description}/>
+                                <Collapse label="Description" children={ficheLogement?.description}/>
                             </div>
                             <div>
                                 <Collapse label="Equipements">

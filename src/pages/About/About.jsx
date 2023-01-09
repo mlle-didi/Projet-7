@@ -1,12 +1,12 @@
 // Components
-import Banner from '../../components/BannerAbout/BannerAbout.jsx'
-import Collapse from '../../components/Collapse/Collapse'
+import Banner from '../../components/BannerAbout/BannerAbout.jsx';
+import Collapse from '../../components/Collapse/Collapse';
 
-// Assets
-import bannerAbout from '../../assets/images/BANNER_ABOUT.jpg' 
+// Images
+import bannerAbout from '../../assets/images/BANNER_ABOUT.jpg' ;
 
 // Style
-import "../About/About.css"
+import '../About/About.css';
 
 function About() {
     return (

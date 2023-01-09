@@ -1,10 +1,11 @@
-// React Framework
-import React from 'react';
-import { useState, useRef } from 'react'
+// Hooks
+import React, { useState, useRef } from 'react';
 
 // Style
-import "../Collapse/Collapse.css"
-import chevron from "../../assets/images/ARROW-DOWN.svg";
+import '../Collapse/Collapse.css';
+
+// Images
+import chevron from '../../assets/images/ARROW-DOWN.svg';
 
 const Collapse =(props)=>{
     const [open, setOPen] = useState(false);

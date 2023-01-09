@@ -1,11 +1,11 @@
 // React Framework
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-// Assets
-import logo from "../../assets/images/LOGO.svg";
+// Images
+import logo from '../../assets/images/LOGO.svg';
 
 // Style
-import "../Header/Header.css"
+import '../Header/Header.css';
 
 function Header() {
     let activeStyle = {textDecoration: "underline"};

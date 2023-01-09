@@ -1,5 +1,5 @@
 // Style
-import "./BannerHome.css"
+import './BannerHome.css';
 
 function Banner({banner, text}) {
     return (

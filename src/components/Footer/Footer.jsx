@@ -1,8 +1,8 @@
-// Assets
-import logo from "../../assets/images/LOGO_BLANC.svg";
+// Images
+import logo from '../../assets/images/LOGO_BLANC.svg';
 
 // Style
-import "../Footer/Footer.css"
+import '../Footer/Footer.css';
 
 function Footer() {
     return (

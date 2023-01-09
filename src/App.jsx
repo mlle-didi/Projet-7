@@ -1,4 +1,4 @@
-// React Framework
+// React
 import React from 'react'
 
 // Routes
