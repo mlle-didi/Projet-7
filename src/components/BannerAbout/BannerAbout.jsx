@@ -1,13 +1,13 @@
 // Style
 import './BannerAbout.css';
 
-function Banner({banner}) {
+function BannerAbout({bannerAbout}) {
     return (
 		<div className="bannerAbout-container margin-LR margin-BT">
-            <img className="bannerAbout-image" src={banner} alt="Bannière" />
+            <img className="bannerAbout-image" src={bannerAbout} alt="Bannière" />
             <div className="bannerAbout-filter"></div>
 		</div>
 	)
 }
 
-export default Banner
+export default BannerAbout
