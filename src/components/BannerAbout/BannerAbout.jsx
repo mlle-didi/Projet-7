@@ -1,7 +1,7 @@
 // Style
 import './BannerAbout.css';
 
-function Banner({banner}) {
+function BannerAbout({banner}) {
     return (
 		<div className="bannerAbout-container margin-LR margin-BT">
             <img className="bannerAbout-image" src={banner} alt="Bannière" />
@@ -10,4 +10,4 @@ function Banner({banner}) {
 	)
 }
 
-export default Banner
+export default BannerAbout

@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 
 // Components
-import Banner from '../../components/BannerHome/BannerHome';
+import BannerHome from '../../components/BannerHome/BannerHome';
 import Card from '../../components/Card/Card';
 
 // Data
@@ -17,7 +17,7 @@ import '../Home/Home.css';
 function Home() {
   return (
     <div>
-      <Banner banner={bannerHome} text="Chez vous, partout et ailleurs"/>
+      <BannerHome banner={bannerHome} text="Chez vous, partout et ailleurs"/>
       <div className="card-background margin-LR">
 			  <div className='container-card'>
 				  {

@@ -1,7 +1,7 @@
 // Style
 import './BannerHome.css';
 
-function Banner({banner, text}) {
+function BannerHome({banner, text}) {
     return (
 		<div className="bannerHome-container margin-LR margin-BT">
             <img className="bannerHome-image" src={banner} alt="Bannière" />
@@ -11,4 +11,4 @@ function Banner({banner, text}) {
 	)
 }
 
-export default Banner
+export default BannerHome
