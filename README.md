@@ -15,7 +15,7 @@ Pour faire tourner ce projet, vous aurez besoin de NodeJS et de télécharger ce
 
 ## Une fois téléchargé :
 
-2)Front end : 
+Front end : 
 - Ouvrir le terminal de commande de votre IDE
 - NPM Install 
 - NPM Start
